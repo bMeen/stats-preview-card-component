@@ -19,11 +19,6 @@ body {
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   background-color: var(--very-dark-blue);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
 }
 
 ul {
@@ -32,10 +27,10 @@ ul {
 }
 
 main {
-  margin-bottom: 1em;
   border-radius: 6px;
   background-color: var(--dark-desaturated-blue);
   width: 90%;
+  margin: 10em auto 1em;
 }
 
 section.card-image,
