@@ -30,7 +30,7 @@ main {
   border-radius: 6px;
   background-color: var(--dark-desaturated-blue);
   width: 90%;
-  margin: 10em auto 1em;
+  margin: 2em auto;
 }
 
 section.card-image,
@@ -102,6 +102,7 @@ section.card-component {
   font-size: 11px;
   text-align: center;
   color: var(--slightly-transparent-white);
+  margin-bottom: 2em;
 }
 
 .attribution a {
@@ -109,10 +110,19 @@ section.card-component {
 }
 
 @media screen and (min-width: 400px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
   main {
     display: flex;
     flex-direction: row-reverse;
-    width: 65%;
+    width: 75%;
+    margin-bottom: 0;
   }
 
   section.card-component {
